@@ -1,0 +1,46 @@
+*{
+    margin: 0px;   /*universal selector*/
+    padding: 0px;
+}
+
+.first{
+    background-color: aqua; /*content selector using class*/
+    color: blue;
+    margin-top: 10px;
+}
+
+#demo{
+    color: chartreuse;     /*target content using id*/
+}
+
+div{
+    background-color: yellow; /*target all div into the html*/
+}
+
+div > p{
+    background-color: brown; /*child selector*/
+}
+
+div span{
+    background-color: blueviolet; /*desendent selector*/
+}
+
+a:visited{
+    color: darkgoldenrod;
+}
+
+a:link{
+    color: green;
+}
+
+a:active{
+    background-color: darkorchid;
+}
+
+a:hover{
+    background-color: magenta;
+}
+/* 
+p:first-child{
+    background-color: violet;
+} */
