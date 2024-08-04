@@ -1,0 +1,33 @@
+.first{
+    background-color: aquamarine;
+    color: chocolate;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 20%;
+}
+
+.para{
+    background-color: bisque;
+    color: blueviolet;
+}
+
+.img{
+    height: 100px;
+    width: 150px;
+    padding-top: 10px;
+    margin-left: 300px; 
+    /* cursor:alias;  */
+}
+
+td{
+    border: 2px solid red;
+    margin-top: 2%;
+}
+
+.vd{
+    height: 275px;
+    width: 410px;
+    margin-left: 40%;
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Programmer</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body bgcolor="sky blue">
+
+    <head>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contect</li>
+            </ul>
+        </nav>
+    </head>
+    <main>
+        <h1 class="first">Welcome to Programmer</h1>
+        <h4 class="first">Welcome to Programmer</h4>
+        <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem magni cum, quod ut unde zquis
+            ex doloribus consequuntur nihil voluptatum totam molestiae porro, dolores molestias veritatis maiores magnam
+            aspernatur. Consequatur minus suscipit rerum alias laborum.</p>
+        <a href="https://youtube.com" target="_blank" style="cursor: alias">
+            <img src="bg-hero.jpg" alt="youtube" class="img">
+        </a>
+        <ul type="circle">
+            <a href="https://facebook.com" target="_blank">
+                <li>Facebook</li>
+            </a>
+            <a href="https://google.com" target="_blank">
+                <li>Google</li>
+            </a>
+            <a href="https://apple.com" target="_blank">
+                <li>Apple</li>
+            </a>
+            <a href="https://microsoft.com" target="_blank">
+                <li>Microsoft</li>
+            </a>
+        </ul>
+        <ol type="I">
+            <a href="https://facebook.com" target="_blank">
+                <li>Facebook</li>
+            </a>
+            <a href="https://google.com" target="_blank">
+                <li>Google</li>
+            </a>
+            <a href="https://apple.com" target="_blank">
+                <li>Apple</li>
+            </a>
+            <a href="https://microsoft.com" target="_blank">
+                <li>Microsoft</li>
+            </a>
+        </ol>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Hobby</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Henil</td>
+                    <td>12</td>
+                    <td>Swimming</td>
+                </tr>
+                <tr>
+                    <td>Jay</td>
+                    <td>45</td>
+                    <td>Cricket</td>
+                </tr>
+                <tr>
+                    <td>Harsh</td>
+                    <td>30</td>
+                    <td rowspan="2">Dancing</td>
+                </tr>
+                <tr>
+                    <td>Yogesh</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>Kamal</td>
+                    <td>22</td>
+                    <td>Traveling</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Marks</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Ajay</td>
+                <td colspan="2" align="center">98</td>
+            </tr>
+            <tr>
+                <td>78</td>
+                <td>24</td>
+            </tr>
+        </table>
+        <br>
+        <div>
+            <form onsubmit="return validateForm(event)">
+                <div>
+                    <label for="username">Name :</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your name" required>
+                </div>
+                <div>
+                    <input type="radio" id="male" name="gender" value="Male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female" required>
+                    <label for="female">Female</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="swimming" name="hobby" value="Swimming">
+                    <label for="swimming">Swimming</label>
+                    <input type="checkbox" id="dancing" name="hobby" value="Dancing">
+                    <label for="dancing">Dancing</label>
+                </div>
+                <div>
+                    <label for="abt-yourself">Description</label>
+                    <textarea name="description" id="abt-yourself" placeholder="Give info. about yourself."></textarea>
+                </div>
+                <div>
+                    <label for="birth-year">Birth-year</label>
+                    <select name="birthYear" id="birth-year">
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                        <option value="2003">2003</option>
+                        <option value="2004">2004</option>
+                    </select>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+            <pre>
+                <code>
+                    &lt;!DOCTYPE html&gt;
+                    &lt;html lang="en"&gt;
+                    &lt;head&gt;
+                    &lt;meta charset="UTF-8"&gt;
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                    &lt;title&gt;Document&lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                        hello
+                    &lt;body&gt;
+                    &lt;/html&gt;
+                </code>
+            </pre>
+        </div>
+        <div>
+            <video src="mixkit-small-turtles-basking-in-the-sun-12813-hd-ready.mp4" controls class="vd" loop
+                poster="bg-hero.jpg"></video>
+            <audio src="cheen-tapak-dum-dum-made-with-Voicemod.mp3" controls autoplay></audio>
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/XZwBNDGuWGU?si=iLZR5Y2zNH21Pssj&amp;start=854"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </main>
+    <footer>
+        Coppyright &copy; &nbsp;&nbsp;all right are valid
+        <blockquote cite="https://www.codewithharry.com/">
+            Quotesion.
+        </blockquote>
+        <div>
+            <time datetime="4/8/24">4/8/24</time>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
