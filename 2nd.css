@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap'); /*import the font from google font */
+
 *{
     margin: 0px;   /*universal selector*/
     padding: 0px;
@@ -8,15 +10,14 @@
     background-color: aqua; /*content selector using class*/
     color: blue;
     margin-top: 10px;
+    letter-spacing: 16px;
 }
 
 #demo{
     color: chartreuse;     /*target content using id*/
 }
 
-div{
-    background-color: yellow; /*target all div into the html*/
-}
+/* */
 
 div > p{
     background-color: brown; /*child selector*/
@@ -40,6 +41,32 @@ a:active{
 
 a:hover{
     background-color: magenta;
+}
+
+.open{
+    background-color: chocolate;
+    padding: 30px;
+    border: 5px solid green;
+    margin: 15px;
+    font-family: "Grey Qo", cursive;
+    font-size: 80px;
+    font-weight: 800;
+    font-size: large;
+    line-height: 1.7;
+}
+
+.thank{
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    color: blue;
+    text-transform: uppercase;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 8px;
+    text-align: center;
+    border: 3px solid green;
+    width: 190px;
+    text-overflow: ellipsis;
+    word-break: break-all;
 }
 /* 
 p:first-child{
