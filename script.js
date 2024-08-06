@@ -46,4 +46,3 @@ function validateForm(event) {
     // Continue form submission or further validation here
     return true;
 }
-z
