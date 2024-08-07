@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+            input[type="text"],
+            input[type="email"],
+            input[type="password"],
+            select {
+                width: 100%;
+                margin-bottom: 15px;
+                padding: 10px;
+                box-sizing: border-box;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+            }
+
+            button[type="submit"] 
+            {
+                padding: 15px;
+                border-radius: 10px;
+                border: none;
+                background-color: #4caf50;
+                color: white;
+                cursor: pointer;
+                width: 100%;
+                font-size: 20px;
+        }
+
+        </style>
+</head>
+<body>
+    <fieldset>
+    <table>
+        <h2>Registration Form</h2>
+        <form action="">
+        <label for="Full"><b>Full Name:</b></label>
+        <input id="Full" type="text" name="Full"><br>
+
+        <label for="Email"><b>Email:</b></label>
+        <input id="Email" type="email" name="Email" ><br>
+
+        <label for="Password"><b>Password:</b></label>
+        <input id="Password" type="password" name="Password"><br>
+
+        <label for="repassword"><b>Re-type Password:</b></label>
+        <input id="repassword" type="password" name="repassword"><br>
+
+        <label for="Gender"><b>Gender:</b></label><br>
+        <input type="radio" name="Gender" value="Male">Male
+        <input type="radio" name="Gender" value="Female">Female
+        <input type="radio" name="Gender" value="Other">Other <br>
+
+        <label for="hobby"><b>Hobby:</b></label><br>
+        <input type="checkbox" name="hobby" value="Gaming">Gaming <br>
+        <input type="checkbox" name="hobby" value="Dancing">Dancing <br>
+        <input type="checkbox" name="hobby" value="Singing">Singing <br>
+        <input type="checkbox" name="hobby" value="Reading">Reading <br>
+
+        <button type="submit">Submit</button> <br>
+    </form>
+    </table>
+</fieldset>
+</body>
+</html>
