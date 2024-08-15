@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-size: 12px;
+    background-color: rgb(155, 192, 192);
+    margin-top: 20px;
+}
+
+.container p{
+    font-size: 2em; /* em is used for size double of particular container , rem use for root element */
+    background-color: aqua;
+    /* margin-top: 20px; */
+    margin:  60px auto;
+    width: 80vw; /* contain 80% of the width from both side and relese 20% width from both side */
+    height: 60vh; /* contain 60% of the height from both side and relese 40% height from both side */
+} 

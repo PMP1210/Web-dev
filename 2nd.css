@@ -64,9 +64,9 @@ a:hover{
     text-decoration-thickness: 8px;
     text-align: center;
     border: 3px solid green;
-    width: 190px;
+    width: 240px;
     text-overflow: ellipsis;
-    word-break: break-all;
+    word-break: break-all; 
 }
 /* 
 p:first-child{

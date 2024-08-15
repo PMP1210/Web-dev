@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: brown;
+}
+
+#purple{
+    color: purple;
+}
+
+[data-x=a]{
+    background-color: black;
+    /* attribute selector */
+}
+
+.red {
+    /* in this color is assign through the class in h1 but h1 also have the inline style color but with the help of 'important' we overwrite the color of inline style and apply the class color */
+  color: red !important;   
+}
+
+.yellow{
+    color: yellow;
+}
+
+.green{
+    color: green;                   /* here if there is same selector like 'class' in one h1 then the sequence is prefer and the last class on same content is ovwrite athor previous one. */
+}
+
+p.pera{
+    color: aqua; /* here the pera and violet both are the classes of same peregraph but with the specificity of the element + class in this (p + pera ) (1 + 10 =11) the specificity of this is greater then violet so it will applied on that peregraph */
+}
+
+.violet{
+    color: violet; /* specificity = 10 */
+}
