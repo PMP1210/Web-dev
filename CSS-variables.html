@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-variables</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /*we use CSS varables if we need to do same thing multiple times , for that by using varables we make it so simple and easy to understand and user frienlly*/
+
+        :root{
+            --color:rgb(28, 28, 233);  /*work as globle variables */
+            --secondcolor:rgb(68, 68, 181); /*work as globle variables */
+            --defpad:padding:20px; 
+            --dedop:0.6;
+        }
+        
+        .nav{
+            background-color: var(--color)
+        }
+
+        ul li{
+            opacity:var(--dedop) ;
+            list-style: none;
+            padding: var(--defpad);
+            border: 5px solid var(--secondcolor);
+        }
+
+        ul li:first-child{
+            --color:rgb(255, 64, 0);  /* by declaring it here we also use it like local variable*/
+            background-color: var(--color); /* take padding from root as a var value */
+            /* border: 3px solid var(--secondcolor); */
+        }
+
+        /* ul li:first-child{
+            background-color: var(--color , red); in this red is use for backup if the given variable is not found then red will aply as an background
+        } */
+
+        ul{
+            display: flex;
+        }
+
+        .container{
+            background-color: var(--secondcolor);
+            margin-top:5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="container">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, culpa expedita repellendus itaque unde atque, voluptatem excepturi blanditiis nobis rem nisi voluptates magni illo eligendi sit facilis impedit quae quidem soluta distinctio voluptate. Molestiae facere animi aspernatur ut incidunt et architecto odit! Reprehenderit, quidem impedit.
+    </div>
+</body>
+</html>
