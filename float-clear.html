@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS float & clear</title>
+    <style>
+        .cards{
+            border: 3px solid black;
+            display: flow-root;
+        }
+
+        img{
+            float: right;
+        }
+
+        .card{
+            border: 3px solid red;
+        }
+
+        .card:nth-child(3){
+            clear: both; /* both is not allowed img to float in left and right both side */
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <img src="https://images.pexels.com/photos/4458003/pexels-photo-4458003.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="boat image" width="344px">
+        <div class="card">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque esse, saepe repudiandae ratione blanditiis odio. Repellat odit sed vitae praesentium necessitatibus nam similique possimus accusamus, ratione optio minus officia perferendis amet officiis nisi rerum.</p>
+        </div>
+        <div class="card">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolorem quod deserunt excepturi eveniet doloremque illum earum! Cumque, culpa voluptas id vel magnam eligendi dolore beatae quia? Aliquid odit ea, perferendis impedit dolorum rem nesciunt quisquam nostrum, molestias exercitationem porro architecto commodi, cum sed consectetur! Natus nisi quos corporis nihil quas consequatur recusandae inventore asperiores eligendi voluptatem officia est non dolorum, magni omnis nemo ducimus et deserunt laudantium quis aspernatur, distinctio perspiciatis expedita! Reprehenderit voluptatibus illo, atque et pariatur esse possimus magni earum quis recusandae cum laboriosam asperiores nam saepe incidunt ex? Laboriosam sequi distinctio, fuga consequatur cum reprehenderit aut repellendus omnis porro rerum quia vero similique quis eius est. Voluptatibus quod, repellendus fuga recusandae accusamus illo explicabo, inventore dolore ea quibusdam impedit iure optio quos amet ipsum nulla sit unde dignissimos! Nihil saepe voluptatum consectetur eveniet eaque voluptate dolor magnam accusantium molestiae ipsa aut eligendi nemo, voluptatem corrupti iusto.
+        </div>
+        <div class="card">Card3</div>
+    </div>
+</body>
+</html>
